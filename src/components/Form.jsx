@@ -39,7 +39,7 @@ export const Form = () => {
       <div className="bg-white border-2 rounded-lg p-5 flex flex-col gap-3">
         <div className="border-2 border-gray-500 rounded-lg h-3">
           <div
-            className="h-full bg-blue-500 transition-all duration-500"
+            className="h-full bg-blue-500 transition-all duration-500 rounded-lg"
             style={{ width: `${progressBar(inputs)}%` }}
           ></div>
         </div>
