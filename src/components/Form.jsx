@@ -22,7 +22,7 @@ export const Form = () => {
     if (validateFullName[0].length > 1 && validateFullName[1]) {
       result += valueToAdd;
     }
-    if (email) {
+    if (email.includes("@") && email.includes(".")) {
       result += valueToAdd;
     }
     if (maritialStatus) {
